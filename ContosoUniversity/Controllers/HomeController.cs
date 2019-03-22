@@ -29,7 +29,7 @@ namespace ContosoUniversity.Controllers
         }
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your csntact page.";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
