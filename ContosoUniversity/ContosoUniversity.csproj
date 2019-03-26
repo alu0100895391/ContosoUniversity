@@ -139,6 +139,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -161,6 +162,14 @@
     <Compile Include="Migrations\201903241509104_ComplexDataModel.cs" />
     <Compile Include="Migrations\201903241509104_ComplexDataModel.Designer.cs">
       <DependentUpon>201903241509104_ComplexDataModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903260851194_DepartmentSP.cs" />
+    <Compile Include="Migrations\201903260851194_DepartmentSP.Designer.cs">
+      <DependentUpon>201903260851194_DepartmentSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903260916321_DepartmentSP1.cs" />
+    <Compile Include="Migrations\201903260916321_DepartmentSP1.Designer.cs">
+      <DependentUpon>201903260916321_DepartmentSP1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -230,6 +239,11 @@
     <Content Include="Views\Instructor\Details.cshtml" />
     <Content Include="Views\Instructor\Edit.cshtml" />
     <Content Include="Views\Instructor\Index.cshtml" />
+    <Content Include="Views\Department\Create.cshtml" />
+    <Content Include="Views\Department\Delete.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
+    <Content Include="Views\Department\Edit.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -256,6 +270,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903241509104_ComplexDataModel.resx">
       <DependentUpon>201903241509104_ComplexDataModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903260851194_DepartmentSP.resx">
+      <DependentUpon>201903260851194_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903260916321_DepartmentSP1.resx">
+      <DependentUpon>201903260916321_DepartmentSP1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
